@@ -15,7 +15,7 @@ import { HelloWorldComponent } from './hello-world/hello-world.component';
   ],
   providers: [],
   entryComponents:[HelloWorldComponent],
-  bootstrap: [AppComponent]
+  bootstrap: []
 })
 export class AppModule { 
   constructor(private injector: Injector){
